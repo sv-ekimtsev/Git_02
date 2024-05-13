@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="zatemnenie">
+        <div id="okno">
+            Email-blablabla@gmai.com!<br>
+            <a href="#" class="close">Закрыть окно</a>
+        </div>
+    </div>
+
+
+    <!-- вставить кнопки -->
+    <div id="topnav">
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="#zatemnenie">Контакты</a></li>
+            <li>
+                <! -- тут кнопка влеплена -->
+                    <script src="script.js"></script>
+                    <button id="button" onmouseover="over_button()" onmouseout="out_button()"
+                        onmousedown="click_button()" onmouseup="unclick()">
+                        <font size="4.5">Цвет Фона</font>
+                    </button>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Боковая навигация  -->
+    <div id="leftnav">
+        <h2> Go To... </h2>
+        <hr>
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="kr.html">Драма</a></li>
+            <li><a href="fant.html">Фантастика</a></li>
+            <li><a href="#">на будущее4</a></li>
+            <li><a href="#">на будущее5</a></li>
+        </ul>
+    </div>
+
+
+    <!-- текст статьи -->
+    <div id="content">
+        <h1>made by: </h1>
+        By Sebastian's<sub>team</sub> Divan<sup>production</sup></a> 2004
+
+        <img id="img3" src="images/seb1.jpg" alt=""/>
+        <img src="images/wh.gif" alt="" />
+<br>
+<ul>
+    <li>Екимцев Себастьян</li>
+    <li>Учащийся лицея №2 г Минска</li>
+    <li>доделывал ночью</li>
+    <li>надеюсб сайт не сползет</li>
+    
+</ul>
+
+    </div>
+
+    <div id="footer">
+        By Sebastian's<sub>team</sub> <a rel="nofollow" target="_blank"
+            href="https://vk.com/id676036564">Divan<sup>production</sup></a> 2004
+    </div>
+
+</body>
+
+</html>

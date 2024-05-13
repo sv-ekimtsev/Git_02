@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>main</title>
+    <link href="styles/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="zatemnenie">
+        <div id="okno">
+            Email-blablabla@gmai.com!<br>
+            <a href="#" class="close">Закрыть окно</a>
+        </div>
+    </div>
+
+
+    <!-- вставить кнопки -->
+    <div id="topnav">
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="#zatemnenie">Контакты</a></li>
+            <li>
+                <! -- тут кнопка влеплена -->
+                    <script src="script.js"></script>
+                    <button id="button" onmouseover="over_button()" onmouseout="out_button()"
+                        onmousedown="click_button()" onmouseup="unclick()">
+                        <font size="4.5">Цвет Фона</font>
+                    </button>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Боковая навигация  -->
+    <div id="leftnav">
+        <h2> Go To... </h2>
+        <hr>
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="kr.html">Драма</a></li>
+            <li><a href="#">Фантастика</a></li>
+            <li><a href="#">на будущее4</a></li>
+            <li><a href="#">на будущее5</a></li>
+        </ul>
+    </div>
+
+
+    <!-- текст статьи -->
+    <div id="content">
+        <h1>Марсианин- кратко о книге</h1>
+        <img id="img4" src="images/mrs.gif" alt="" />
+        <img id="img5" src="images/mars.jpeg" alt="" />
+        <em><ins>Марсианин</ins>
+            Шесть дней назад астронавт Марк Уотни стал одним из первых людей, ступивших на Марс. Сейчас он уверен,
+            что будет первым, кто там умрет. После того как песчаная буря чуть не убила его и заставила его команду
+            эвакуироваться, считая его погибшим, Марк понимает, что он остался совершенно один, без возможности 
+            связаться с Землей, чтобы сообщить, что он жив, а даже если бы и мог, его запасы иссякнут до 
+            прилета спасательной миссии. Однако шансы умереть от голода невелики. Он скорее может умереть от 
+            повреждений техники, суровой окружающей среды или простой «человеческой ошибки». Но Марк не готов 
+            сдаться. Опираясь на свою изобретательность, инженерные навыки и неустанный, упорный отказ бросить 
+            попытки, он стойко преодолевает препятствия одно за другим. Достаточно ли его изобретательности, 
+            чтобы преодолеть все препятствия?
+    </div>
+
+    <div id="footer">
+        By Sebastian's<sub>team</sub> <a rel="nofollow" target="_blank"
+            href="https://vk.com/id676036564">Divan<sup>production</sup></a> 2004
+    </div>
+
+</body>
+
+</html>
